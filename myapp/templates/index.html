@@ -1,3 +1,13 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
 <h1> {{ title }} </h1>
 
+<img src="{% static 'menu.jpeg' %}" alt="" width="130">
+
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quisquam quia eos totam iure minus sed doloribus suscipit adipisci quidem distinctio, atque, molestiae amet consectetur in delectus quis aut saepe.</p>
+
+{% endblock %}
